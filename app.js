@@ -12,7 +12,7 @@ var db = mongoose.connection;
 
 // Route for landing page
 app.get('/', function(req, res){
-    res.send('Please use /api/books or /api/genres to navigate through the API.');
+    res.send('Please use /api/books or /api/genres to navigate through the API. Good luck!');
 });
 
 app.get('/api/genres', function(req, res) {
